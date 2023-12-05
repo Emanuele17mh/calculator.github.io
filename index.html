@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1 id="title">Calculator</h1>
+    </div>
+
+    <div class="calc-container">
+
+        <div class="first-line">
+            <div class="displayNum" id="display"></div>
+            <button class="calc-btn" id="num7">7</button>
+            <button class="calc-btn" id="num8">8</button>
+            <button class="calc-btn" id="num9">9</button>
+            <button class="calc-btn" id="divisione">/</button>
+        </div>
+
+        <div class="second-line">
+            <button class="calc-btn" id="num4">4</button>
+            <button class="calc-btn" id="num5">5</button>
+            <button class="calc-btn" id="num6">6</button>
+            <button class="calc-btn" id="moltiplicazione" value="*">*</button>
+        </div>
+
+        <div class="third-line">
+            <button class="calc-btn" id="num1">1</button>
+            <button class="calc-btn" id="num2">2</button>
+            <button class="calc-btn" id="num3">3</button>
+            <button class="calc-btn" id="sottrazione">-</button>
+        </div>
+
+        <div class="last-line">
+            <button class="calc-btn" id="num0">0</button>
+            <button class="calc-btn" id=".">.</button>
+            <button class="calc-btn" id="+">+</button>
+            <button onclick="ev()"class="eval-btn" id="equal">=</button>
+            <button onclick="clearAll()" class="cancel-btn" id="cancella">C</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
